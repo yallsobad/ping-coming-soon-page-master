@@ -120,7 +120,25 @@ form input {
   margin-bottom: 25px;
 }
 
-.facebook {
+#facebook {
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+  color: var(--Blue);
+}
+
+#facebook:hover {
+  background-color: var(--Blue);
+  color: white;
+}
+
+#twitter {
   border: 1px solid rgba(128, 128, 128, 0.2);
   border-radius: 50%;
   width: 50px;
@@ -129,46 +147,16 @@ form input {
   justify-content: center;
   margin-right: 15px;
   cursor: pointer;
-}
-
-.facebook:hover {
-  background-color: var(--Blue);
-}
-
-.facebook i {
-  align-self: center;
+  align-items: center;
   color: var(--Blue);
 }
 
-.facebook i:hover {
-  color: white;
-}
-
-.twitter {
-  border: 1px solid rgba(128, 128, 128, 0.2);
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  margin-right: 15px;
-  cursor: pointer;
-}
-
-.twitter:hover {
+#twitter:hover {
   background-color: var(--Blue);
-}
-
-.twitter i {
-  align-self: center;
-  color: var(--Blue);
-}
-
-.twitter i:hover {
   color: white;
 }
 
-.instagram {
+#instagram {
   border: 1px solid rgba(128, 128, 128, 0.2);
   border-radius: 50%;
   width: 50px;
@@ -176,18 +164,12 @@ form input {
   display: flex;
   justify-content: center;
   cursor: pointer;
-}
-
-.instagram:hover {
-  background-color: var(--Blue);
-}
-
-.instagram i {
-  align-self: center;
+  align-items: center;
   color: var(--Blue);
 }
 
-.instagram i:hover {
+#instagram:hover {
+  background-color: var(--Blue);
   color: white;
 }
 
